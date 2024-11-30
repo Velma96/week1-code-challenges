@@ -21,8 +21,10 @@ This repository contains solutions to various JavaScript toy problems, designed 
 
 5. [Contributing](contributing)
 
+6. [Contact](contact)
 
-6. [License](licence)
+
+7. [License](licence)
 
 
 
@@ -117,17 +119,17 @@ Net Salary: <calculated value>
 
 #How to Run
 
-1. Clone the repository:
+1. *Clone the repository*:
 
 git clone <repository-url>
 
 
-2. Navigate to the project directory:
+2. *Navigate to the project directory*:
 
 cd <repository-directory>
 
 
-3. Run any challenge file using Node.js:
+3. *Run any challenge file using Node.js*:
 
 node challenge1.js
 
@@ -141,6 +143,12 @@ Replace challenge1.js with the relevant challenge file name.
 ##Contributing
 
 Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
+##Contact
+- *Name*: Phoebe Velma Awuor
+- *Email*: [awuorphoebi@gmail.com]
+- *LinkedIn*: [https://www.linkedin.com/in/phoebe-velma-awuor/](#)
+- *GitHub*: [https://github.com/Velma96](#)
+
 
 
 ---
