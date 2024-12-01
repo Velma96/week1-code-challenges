@@ -1,6 +1,6 @@
 #JavaScript Toy Problems
 
-This repository contains solutions to various JavaScript toy problems, designed to practice basic programming skills and logical thinking. Each challenge solves a specific problem with clear input and output expectations.
+This repository contains solutions to three JavaScript toy problems, that is part of week 1 code challenge. Each challenge solves a problem that was well described in the questions.
 
 
 ---
@@ -23,8 +23,6 @@ This repository contains solutions to various JavaScript toy problems, designed 
 
 6. [Contact](contact)
 
-
-7. [License](licence)
 
 
 
@@ -152,10 +150,6 @@ Contributions are welcome! Feel free to fork the repository, make improvements, 
 
 
 ---
-
-##License
-
-This project is open-source and available under the MIT License.
 
 
 ---
