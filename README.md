@@ -125,8 +125,11 @@ git clone <repository-url>
 2. *Navigate to the project directory*:
 
 cd <repository-directory>
+
 3. *Opend the project on VScode using*;
-<code .>
+
+code .
+
 
 4. *Run any challenge file using Node.js*:
 
