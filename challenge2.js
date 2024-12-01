@@ -15,4 +15,4 @@ function checkSpeed(speed){
         return `Points: ${points}`;
     }
 }
-console.log(checkSpeed(135));
+console.log(checkSpeed(85));

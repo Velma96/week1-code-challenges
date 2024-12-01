@@ -1,5 +1,5 @@
 function calculateNetSalary(basicSalary, benefits) {
-    // NHIF Deductions Table
+    // SHIF Deductions Table
     const nhifRates = [
         { upperLimit: 5999, rate: 150 },
         { upperLimit: 7999, rate: 300 },
@@ -19,6 +19,7 @@ function calculateNetSalary(basicSalary, benefits) {
         { upperLimit: 99999, rate: 1600 },
         { upperLimit: Infinity, rate: 1700 },
     ];
+    //PAYEE rates table
     const payeeRates = [
         { upperLimit: 24000, rate: 0.1 },
         { upperLimit: 32333, rate: 0.25 },
@@ -77,7 +78,7 @@ function calculateNetSalary(basicSalary, benefits) {
         netSalary,
     };
 }
-const salaryDetails = calculateNetSalary(50000, 10000);
+const salaryDetails = calculateNetSalary(24000, 8000);
 
 for (const [key, value] of Object.entries(salaryDetails)) {
     console.log(`${key}: ${value}`);
