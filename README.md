@@ -152,10 +152,4 @@ Contributions are welcome! Feel free to fork the repository, make improvements, 
 - *GitHub*: [https://github.com/Velma96](#)
 
 
-
 ---
-
-
----
-
-Feel free to adjust this structure based on your specific project details. Let me know if you'd like assistance with any section!
