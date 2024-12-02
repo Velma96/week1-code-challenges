@@ -2,7 +2,7 @@
 function outputGrade(score){
 if (score < 0 || score > 100) {
    //alert message incase they input a number <0 or >100
-    alert("Invalid input! Please check your entry.");
+    console.log("Invalid input! Please check your entry.");
     return;
 }
 //determine the grade
@@ -21,5 +21,5 @@ if (score>79) {
 return grade;
 }
 //call function
-console.log(outputGrade(59))
+console.log(outputGrade(65))
   

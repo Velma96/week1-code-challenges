@@ -1,11 +1,11 @@
-#JavaScript Toy Problems
+## Week1-CODE CHALLENGE
 
 This repository contains solutions to three JavaScript toy problems, that is part of week 1 code challenge. Each challenge solves a problem that was well described in the questions.
 
 
 ---
 
-##Table of Contents
+## Table of Contents
 
 1. [Challenge 1: Student Grade Generator](challenge1)
 
@@ -29,12 +29,12 @@ This repository contains solutions to three JavaScript toy problems, that is par
 
 ---
 
-##Challenge 1: Student Grade Generator
+## Challenge 1: Student Grade Generator
 
 Problem Statement
 
 Write a function that prompts the user to input student marks. The input should be a number between 0 and 100. The output should correspond to the correct grade based on the following criteria:
-
+```bash
 A: 79 and above
 
 B: 60 to 79
@@ -55,11 +55,12 @@ console.log(outputGrade(85));
 Output:
 
 A
+```
 
 
 ---
 
-##Challenge 2: Speed Detector
+## Challenge 2: Speed Detector
 
 Problem Statement
 
@@ -71,7 +72,7 @@ If the driver gets more than 12 points, the function should print "License suspe
 
 
 Example
-
+```bash
 Input:
 
 console.log(checkSpeed(80));
@@ -87,11 +88,12 @@ console.log(checkSpeed(135));
 Output:
 
 License suspended
+```
 
 
 ---
 
-##Challenge 3: Net Salary Calculator
+## Challenge 3: Net Salary Calculator
 
 Problem Statement
 
@@ -103,7 +105,7 @@ Output the net salary after deducting the above.
 
 
 Example
-
+```bash
 Input:
 
 console.log(netSalaryCalculator(50000, 10000));
@@ -111,29 +113,33 @@ console.log(netSalaryCalculator(50000, 10000));
 Output:
 
 Net Salary: <calculated value>
+```
 
 
 ---
 
-#How to Run
+## How to Run
 
 1. *Clone the repository*:
 
+```bash
 git clone <repository-url>
-
+```
 
 2. *Navigate to the project directory*:
-
+```bash
 cd <repository-directory>
-
+```
 3. *Opend the project on VScode using*;
-
+```bash
 code .
+```
 
 
-4. *Run any challenge file using Node.js*:
-
+4. *Run any challenge file using Node.js in the terminal*:
+```bash
 node challenge1.js
+```
 
 Replace challenge1.js with the relevant challenge file name.
 
@@ -142,10 +148,10 @@ Replace challenge1.js with the relevant challenge file name.
 
 ---
 
-##Contributing
+## Contributing
 
 Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
-##Contact
+## Contact
 - *Name*: Phoebe Velma Awuor
 - *Email*: [awuorphoebi@gmail.com]
 - *LinkedIn*: [https://www.linkedin.com/in/phoebe-velma-awuor/](#)
