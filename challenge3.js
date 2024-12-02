@@ -38,6 +38,7 @@ function calculateNetSalary(basicSalary, benefits) {
             break;
         }
     }
+    //nssf deduction based on tiers
     let nssfDeduction = 0;
     const tier1Limit = 6000;
     const tier2Limit = 12000;
@@ -45,7 +46,7 @@ function calculateNetSalary(basicSalary, benefits) {
     const tier2Rate = 0.06;
 
     if (grossSalary > 0) {
-        nssfDeduction += Math.min(grossSalary, tier1Limit) * tier1Rate;
+        nssfDeduction += Math.min(grossSalary, tier1Limit) * tier1Rate;//math.min to return the minimun value
         if (grossSalary > tier1Limit) {
             nssfDeduction += Math.min(grossSalary - tier1Limit, tier2Limit) * tier2Rate;
         }
