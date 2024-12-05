@@ -21,5 +21,5 @@ if (score>79) {
 return grade;
 }
 //call function
-console.log(outputGrade(65))
+console.log(outputGrade(135))
   
